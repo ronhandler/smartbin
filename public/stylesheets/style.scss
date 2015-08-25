@@ -29,13 +29,26 @@ h1 {
   right: 0;
   width: 100%;
   padding: 0px;
+  padding-bottom: $navbarheight;
   margin: 0px;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-.youtube {
+.youtubewrapper {
   @include box-shadow(rgba(navy, 0.5) 0 0 35px);
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+.youtubewrapper .youtube,
+.youtubewrapper object,
+.youtubewrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .codeheader {
