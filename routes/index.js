@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var mytitle="פח חכם";
+var mytitle="פח חכם - מטבח חכם";
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
