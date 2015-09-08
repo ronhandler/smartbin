@@ -59,7 +59,7 @@ app.use(function(err, req, res, next) {
 
 // Livereload
 var livereload = require('livereload').createServer({
-    exts: ['js', 'jade', 'sass',]
+	exts: ['js', 'jade', 'sass',]
 });
 livereload.watch(__dirname + '/public/javascripts');
 livereload.watch(__dirname + '/public/stylesheets/');
