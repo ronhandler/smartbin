@@ -11,6 +11,7 @@ a {
 
 h1 {
   text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 8px;
+  margin-bottom: 3rem;
 }
 
 .navbar {
@@ -56,4 +57,23 @@ h1 {
 
 .codeheader {
   direction: ltr;
+  margin-top: 10rem;
+  font-weight: bold;
+}
+
+.frontpage-container {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+#project-info {
+  margin-bottom: 5rem;
+}
+
+#university {
+  margin-top: 5rem;
+}
+
+#authors {
+  margin-top: 5rem;
 }

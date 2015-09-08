@@ -12,6 +12,10 @@ router.get('/code', function(req, res, next) {
   res.render('code', { title: mytitle, currentpage: 'Code' });
 });
 
+router.get('/video', function(req, res, next) {
+  res.render('video', { title: mytitle, currentpage: 'Video' });
+});
+
 router.get('/about', function(req, res, next) {
   res.render('about', { title: mytitle, currentpage: 'About' });
 });
